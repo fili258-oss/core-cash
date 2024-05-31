@@ -1,5 +1,6 @@
 // constants/main_menu.dart
 import 'package:core_cash/utils/constants/image_strings.dart';
+import 'package:core_cash/utils/constants/text_strings.dart';
 
 
 class MenuItem {
@@ -11,27 +12,51 @@ class MenuItem {
 
 final List<MenuItem> mainMenuItems = [
   MenuItem(
-    title: 'Mi cuenta',
+    title: AppText.myAccount,
     imagePath: AppImage.myAccount,
   ),
   MenuItem(
-    title: 'Recaudos',
+    title: AppText.collections,
     imagePath: AppImage.collections,
   ),
   MenuItem(
-    title: 'Reportes',
+    title: AppText.reports,
     imagePath: AppImage.reports,
   ),
   MenuItem(
-    title: 'Créditos',
+    title: AppText.credits,
     imagePath: AppImage.credits,
   ),
   MenuItem(
-    title: 'Asociados',
+    title: AppText.partners,
     imagePath: AppImage.partners,
   ),
   MenuItem(
-    title: 'Mis Créditos',
+    title: AppText.myCredits,
+    imagePath: AppImage.myCredits,
+  ),
+  MenuItem(
+    title: AppText.myCredits,
+    imagePath: AppImage.myCredits,
+  ),
+  MenuItem(
+    title: AppText.myCredits,
+    imagePath: AppImage.myCredits,
+  ),
+  MenuItem(
+    title: AppText.myCredits,
+    imagePath: AppImage.myCredits,
+  ),
+  MenuItem(
+    title: AppText.myCredits,
+    imagePath: AppImage.myCredits,
+  ),
+  MenuItem(
+    title: AppText.myCredits,
+    imagePath: AppImage.myCredits,
+  ),
+  MenuItem(
+    title: AppText.myCredits,
     imagePath: AppImage.myCredits,
   ),
   

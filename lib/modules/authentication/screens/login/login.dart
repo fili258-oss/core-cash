@@ -136,7 +136,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Container(
                     
                     child: Text(
-                      "Desarrollado por BtnTechnology S.A.S"
+                      AppText.development
                     ),
                   ),
                   

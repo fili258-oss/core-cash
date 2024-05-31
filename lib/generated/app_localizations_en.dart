@@ -26,6 +26,39 @@ class AppLocalizationsEn extends AppLocalizations {
         'signIn': 'Login',
         'createAccount': 'Create account',
         'orSignInWith': 'Or log in with',
+        'develop': 'Developed by: Btn Technology',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String myHome(String name) {
+    String _temp0 = intl.Intl.selectLogic(
+      name,
+      {
+        'titleCard': 'My savings',
+        'myAccount': 'My account',
+        'collections': 'Collections',
+        'reports': 'Reports',
+        'credits': 'Credits',
+        'partners': 'Partners',
+        'myCredits': 'My credits',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String myMenuBar(String name) {
+    String _temp0 = intl.Intl.selectLogic(
+      name,
+      {
+        'home': 'Home',
+        'settings': 'Settings',
+        'notifications': 'Notifications',
         'other': '',
       },
     );

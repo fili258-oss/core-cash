@@ -1,5 +1,7 @@
 {
   "appTitle": "Mi Aplicación",
   "content": "Hola",  
-  "login": "{name, select, loginTitle{Bienvenido a CoreCash} loginSubTitle{Administre sus ahorros personales.} email{Correo electrónico} password{Contraseña} rememberMe{Recuérdame} forgetPassword{Recuperar contraseña?} signIn{Iniciar sesión} createAccount{Crear cuenta} orSignInWith{O inicie sesión con} other{}}"
+  "login": "{name, select, loginTitle{Bienvenido a CoreCash} loginSubTitle{Administre sus ahorros personales.} email{Correo electrónico} password{Contraseña} rememberMe{Recuérdame} forgetPassword{Recuperar contraseña?} signIn{Iniciar sesión} createAccount{Crear cuenta} orSignInWith{O inicie sesión con} develop{Desarrollado por: Btn Technology} other{}}",
+  "myHome": "{name, select, titleCard{Mis ahorros} myAccount{Mi cuenta} collections{Recaudos} reports{Reportes} credits{Créditos} partners{Asociados} myCredits{Mis créditos} other{}}",
+  "myMenuBar": "{name, select, home{Inicio} settings{Ajustes} notifications{Notificaciones} other{}}"
 }
