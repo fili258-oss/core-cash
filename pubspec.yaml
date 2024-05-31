@@ -8,6 +8,7 @@ environment:
 
 # ---------- PACKAGES ----------
 dependencies:
+  google_nav_bar: ^5.0.6
   flutter:
     sdk: flutter
 
@@ -25,7 +26,11 @@ dependencies:
   # State Management
   get: ^4.6.6
   get_storage: ^2.1.1
+  flutter_svg: ^2.0.10+1
   firebase_core: ^2.30.1
+  cloud_firestore: ^4.17.2
+  flutter_localization: ^0.2.0
+  firebase_auth: ^4.19.5
 
 # ---------- PACKAGES DEV ----------
 dev_dependencies:
@@ -35,12 +40,15 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
+  generate: true
   uses-material-design: true
 
   # ---------- LOCAL ASSETS ----------
   assets:
     - assets/icons/
     - assets/images/
+    - assets/logos/
+    - assets/images/my_home/
   
   # ---------- LOCAL FONTS ----------
   fonts:

@@ -1,0 +1,5 @@
+{
+  "appTitle": "My aplication",
+  "content": "Hello",  
+  "login": "{name, select, loginTitle{Welcome to CoreCash} loginSubTitle{Manage your personal savings.} email{Email adress} password{Password} rememberMe{Remember me} forgetPassword{Lost Password?} signIn{Login} createAccount{Create account} orSignInWith{Or log in with} other{}}"
+}

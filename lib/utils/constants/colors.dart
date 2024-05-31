@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
+  // Neutral colors
+  
   // App basic colors
-  static const Color primary = Color(0xFF3629B7);
+  static const Color primary = Color(0xFF281C9D);
+  
   static const Color secondary = Color(0xFF3A2C27);
   static const Color accent = Color(0xFFFFC107);
 
@@ -23,7 +26,7 @@ class AppColors {
   static Color darkContainer = Colors.white.withOpacity(0.1);
 
   // Button colors
-  static const Color buttonPrimary = Color(0xFF4B68FF);
+  static const Color buttonPrimary = Color(0xFF3629B7);
   static const Color buttonSecondary = Color(0xFF6C757D);
   static const Color buttonDisabled = Color(0xFFC4C4C4);
 
