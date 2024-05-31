@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'core-cash-afc81.appspot.com',
     iosBundleId: 'com.example.coreCash',
   );
+
 }
