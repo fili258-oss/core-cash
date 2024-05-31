@@ -108,8 +108,20 @@ abstract class AppLocalizations {
   /// No description provided for @login.
   ///
   /// In es, this message translates to:
-  /// **'{name, select, loginTitle{Bienvenido a CoreCash} loginSubTitle{Administre sus ahorros personales.} email{Correo electrónico} password{Contraseña} rememberMe{Recuérdame} forgetPassword{Recuperar contraseña?} signIn{Iniciar sesión} createAccount{Crear cuenta} orSignInWith{O inicie sesión con} other{}}'**
+  /// **'{name, select, loginTitle{Bienvenido a CoreCash} loginSubTitle{Administre sus ahorros personales.} email{Correo electrónico} password{Contraseña} rememberMe{Recuérdame} forgetPassword{Recuperar contraseña?} signIn{Iniciar sesión} createAccount{Crear cuenta} orSignInWith{O inicie sesión con} develop{Desarrollado por: Btn Technology} other{}}'**
   String login(String name);
+
+  /// No description provided for @myHome.
+  ///
+  /// In es, this message translates to:
+  /// **'{name, select, titleCard{Mis ahorros} myAccount{Mi cuenta} collections{Recaudos} reports{Reportes} credits{Créditos} partners{Asociados} myCredits{Mis créditos} other{}}'**
+  String myHome(String name);
+
+  /// No description provided for @myMenuBar.
+  ///
+  /// In es, this message translates to:
+  /// **'{name, select, home{Inicio} settings{Ajustes} notifications{Notificaciones} other{}}'**
+  String myMenuBar(String name);
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

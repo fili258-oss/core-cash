@@ -1,7 +1,10 @@
+import 'dart:nativewrappers/_internal/vm/lib/core_patch.dart';
+
 import 'package:core_cash/modules/home/widgets/my_home_appbar.dart';
 import 'package:core_cash/utils/constants/colors.dart';
 import 'package:core_cash/utils/constants/image_strings.dart';
 import 'package:core_cash/utils/constants/main_menu.dart';
+import 'package:core_cash/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/svg.dart';
